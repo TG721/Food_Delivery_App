@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:title="@string/discover"
+        android:icon="@drawable/food"
+        />
+    <item
+        android:id="@+id/restaurantFragment"
+        android:title="@string/restaurants"
+        android:icon="@drawable/restaurant"
+        />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:title="@string/favorites"
+        android:icon="@drawable/favorite"
+        />
+
+</menu>
