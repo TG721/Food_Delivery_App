@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/discoverFragment"
-        android:name="com.tengizmkcorp.food_delivery.DiscoverFragment"
+        android:name="com.tengizmkcorp.food_delivery.ui.element.DiscoverFragment"
         android:label="fragment_discover"
         tools:layout="@layout/fragment_discover" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.tengizmkcorp.food_delivery.SettingsFragment"
+        android:name="com.tengizmkcorp.food_delivery.ui.element.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/restaurantFragment"
-        android:name="com.tengizmkcorp.food_delivery.restaurantFragment"
+        android:name="com.tengizmkcorp.food_delivery.ui.element.RestaurantFragment"
         android:label="fragment_restaurant"
         tools:layout="@layout/fragment_restaurant" />
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.tengizmkcorp.food_delivery.FavoriteFragment"
+        android:name="com.tengizmkcorp.food_delivery.ui.element.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
 </navigation>

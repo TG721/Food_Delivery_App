@@ -55,4 +55,6 @@ dependencies {
     implementation "androidx.recyclerview:recyclerview:1.2.1"
     // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    //lottie animation
+    implementation "com.airbnb.android:lottie:3.4.0"
 }
