@@ -1,4 +1,4 @@
-package com.tengizmkcorp.food_delivery
+package com.tengizmkcorp.food_delivery.ui
 
 import android.annotation.SuppressLint
 import android.content.res.ColorStateList
@@ -10,11 +10,11 @@ import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.tengizmkcorp.food_delivery.R
 import com.tengizmkcorp.food_delivery.databinding.ActivityMainBinding
 import com.tengizmkcorp.food_delivery.extension.uncheckAllItems
 import kotlinx.coroutines.*
 import java.util.*
-import kotlin.concurrent.schedule
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
