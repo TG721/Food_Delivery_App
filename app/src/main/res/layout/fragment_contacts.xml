@@ -4,27 +4,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.element.SettingsFragment">
+    tools:context=".ui.element.ContactsFragment">
+
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/syncContactsTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:text="@string/settings"
-        android:textSize="48sp"
+        android:layout_marginTop="40dp"
+        android:text="@string/sync_contacts"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sync_contacts_switch"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_rawRes="@raw/lemon_switch" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,40 +1,27 @@
 package com.tengizmkcorp.food_delivery.ui.element
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import com.airbnb.lottie.LottieAnimationView
-import com.tengizmkcorp.food_delivery.R
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.tengizmkcorp.food_delivery.databinding.FragmentSettingsBinding
+import com.tengizmkcorp.food_delivery.ui.adapter.SettingsItemAdapter
 import com.tengizmkcorp.food_delivery.ui.common.BaseFragment
+import com.tengizmkcorp.food_delivery.ui.model.settingsList
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class SettingsFragment : BaseFragment<FragmentSettingsBinding>(FragmentSettingsBinding::inflate) {
+    private lateinit var settingsItemAdapter : SettingsItemAdapter
     override fun setup() {
-
+        setupRecycler()
     }
 
-    override fun listeners() {
-        setupSwitchBtn()
+    private fun setupRecycler() {
+        settingsItemAdapter = SettingsItemAdapter()
+        val settingsRecycler = binding.recyclerView
+        settingsRecycler.adapter = settingsItemAdapter
+        settingsRecycler.layoutManager =
+            LinearLayoutManager(requireContext())
+        settingsItemAdapter.submitList(settingsList)
     }
 
-    private fun setupSwitchBtn() {
-        var isSwitchOn = false
-        val lottieContactsSyncBtn: LottieAnimationView = binding.syncContactsSwitch
-        lottieContactsSyncBtn.speed = 3f;
-        lottieContactsSyncBtn.setOnClickListener {
-            isSwitchOn = if(isSwitchOn){
-                lottieContactsSyncBtn.setMinAndMaxProgress(0.5f,1.0f)
-                lottieContactsSyncBtn.playAnimation()
-                false
-            } else {
-                lottieContactsSyncBtn.setMinAndMaxProgress(0.0F,0.5f)
-                lottieContactsSyncBtn.playAnimation()
-                true
-            }
-        }
-    }
+
 }

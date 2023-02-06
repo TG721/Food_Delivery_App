@@ -14,7 +14,11 @@
         android:id="@+id/settingsFragment"
         android:name="com.tengizmkcorp.food_delivery.ui.element.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_contactsFragment"
+            app:destination="@id/contactsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/restaurantFragment"
         android:name="com.tengizmkcorp.food_delivery.ui.element.RestaurantFragment"
@@ -25,4 +29,9 @@
         android:name="com.tengizmkcorp.food_delivery.ui.element.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.tengizmkcorp.food_delivery.ui.element.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
 </navigation>
