@@ -6,7 +6,8 @@
      <td>Settings Screen</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/85778941/216870518-a448cb72-4d02-4dca-b36e-0c5b4cc7e4df.jpg" width="360" height="800"></td>
-    <td><img src="https://user-images.githubusercontent.com/85778941/216870531-41c45e55-641d-4d8e-8c33-43ba99369979.jpg" width="360" height="800"></td>
+    <td><img src="https://user-images.githubusercontent.com/85778941/216996164-6da5ecb2-537a-4326-ba31-b6836b03f740.jpg" width="360" height="800"></td>
+    <td><img src="https://user-images.githubusercontent.com/85778941/216996245-c1c15b61-3f77-4108-80dc-e207114e8e84.jpg" width="360" height="800"></td>
   </tr>
  </table>
+
