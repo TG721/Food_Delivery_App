@@ -6,7 +6,7 @@
      <td>Gameplay Screen</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/85778941/211939305-bea6212d-3bc7-403f-b132-ecc896aa06b9.jpg" width="360" height="800"></td>
-    <td><img src="https://user-images.githubusercontent.com/85778941/211939326-f7c7c1c9-0e94-4077-9c52-7eb31271beb5.jpg" width="360" height="800"></td>
+    <td><img src="https://user-images.githubusercontent.com/85778941/216870518-a448cb72-4d02-4dca-b36e-0c5b4cc7e4df.jpg" width="360" height="800"></td>
+    <td><img src="https://user-images.githubusercontent.com/85778941/216870531-41c45e55-641d-4d8e-8c33-43ba99369979.jpg" width="360" height="800"></td>
   </tr>
  </table>
