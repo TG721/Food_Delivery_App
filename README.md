@@ -1,0 +1,12 @@
+## Screenshots
+
+<table>
+  <tr>
+    <td>Main Screen</td>
+     <td>Gameplay Screen</td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/85778941/211939305-bea6212d-3bc7-403f-b132-ecc896aa06b9.jpg" width="360" height="800"></td>
+    <td><img src="https://user-images.githubusercontent.com/85778941/211939326-f7c7c1c9-0e94-4077-9c52-7eb31271beb5.jpg" width="360" height="800"></td>
+  </tr>
+ </table>
