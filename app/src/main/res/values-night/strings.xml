@@ -6,4 +6,9 @@
     <string name="favorites">Favorites</string>
     <string name="settings">Settings</string>
     <string name="sync_contacts">Sync Contacts</string>
+    <string name="fresh_deals">Fresh Deals</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="wendy_is_cool_restaurant">Wendy is cool restaurant</string>
+    <string name="wendy_s">Wendy\'s</string>
+    <string name="stay_healthy">Stay Healthy</string>
 </resources>

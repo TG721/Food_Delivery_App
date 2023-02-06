@@ -15,7 +15,9 @@ import com.tengizmkcorp.food_delivery.databinding.ActivityMainBinding
 import com.tengizmkcorp.food_delivery.extension.uncheckAllItems
 import kotlinx.coroutines.*
 import java.util.*
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController

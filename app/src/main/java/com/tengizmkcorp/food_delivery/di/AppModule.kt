@@ -1,8 +1,14 @@
 package com.tengizmkcorp.food_delivery.di
 
 import android.content.Context
+import com.tengizmkcorp.food_delivery.data.remote.FoodApi
+import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
+import okhttp3.OkHttpClient
+import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
@@ -14,7 +20,6 @@ object AppModule {
 
     private val client = OkHttpClient.Builder().apply {
         readTimeout(10, TimeUnit.SECONDS)
-        addInterceptor(MyInterceptor())
     }.build()
 
     @Provides

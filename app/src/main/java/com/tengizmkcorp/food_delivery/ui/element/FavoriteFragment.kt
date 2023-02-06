@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.tengizmkcorp.food_delivery.databinding.FragmentFavoriteBinding
 import com.tengizmkcorp.food_delivery.ui.common.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class FavoriteFragment : BaseFragment<FragmentFavoriteBinding>(FragmentFavoriteBinding::inflate) {
     override fun setup() {
 

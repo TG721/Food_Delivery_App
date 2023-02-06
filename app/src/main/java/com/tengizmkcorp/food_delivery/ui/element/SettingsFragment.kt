@@ -9,7 +9,9 @@ import com.airbnb.lottie.LottieAnimationView
 import com.tengizmkcorp.food_delivery.R
 import com.tengizmkcorp.food_delivery.databinding.FragmentSettingsBinding
 import com.tengizmkcorp.food_delivery.ui.common.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SettingsFragment : BaseFragment<FragmentSettingsBinding>(FragmentSettingsBinding::inflate) {
     override fun setup() {
 
