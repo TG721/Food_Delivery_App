@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>Main Screen</td>
-     <td>Gameplay Screen</td>
+     <td>Settings Screen</td>
   </tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/85778941/216870518-a448cb72-4d02-4dca-b36e-0c5b4cc7e4df.jpg" width="360" height="800"></td>
